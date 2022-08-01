@@ -260,32 +260,54 @@ section .title::after {
 
 /* about section styling */
 
+
+/* .abou {
+    /* background: url('../images/nishant.jpeg'); */
+
 .about .title::after {
     content: "who i am";
 }
 
+
+/* 
 .about .about-content .left {
     width: 45%;
+} */
+
+
+/* .about .about-content .left {
+    /* background: url('../images/nishant.jpeg'); */
+
+
+/* height: 800px;
+    width: 400px; */
+
+
+/* background: url('../images/nishant.jpeg');
+background-color: #b3b3b3;
+object-fit: cover;
+border-radius: 6px;
+
+} */
+
+.about {
+    background-color: #eff1ef;
 }
 
-.about .about-content .left img {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
+.about .about-content {
+    width: 100%;
+    margin: auto;
+    display: inline;
 }
 
-.about .about-content .right {
-    width: 55%;
-}
-
-.about .about-content .right .text {
+.about .about-content .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.about .about-content .right .text span {
+.about .about-content .text span {
     color: crimson;
 }
 
@@ -359,7 +381,7 @@ section .title::after {
     transition: color 0.3s ease;
 }
 
-.projects .serv-content .card:hover i {
+projects .serv-content .card:hover i {
     color: #fff;
 }
 
@@ -372,6 +394,7 @@ section .title::after {
 .projects .serv-content.card .box button {
     border-radius: 2px;
     padding: 5px;
+    transition: color 0.5s ease;
 }
 
 .projects .butt {
@@ -382,6 +405,15 @@ section .title::after {
     text-align: center;
     color: rgb(34, 203, 59);
     background-color: white;
+    transition: color 0.5s ease;
+    margin-top: 10px;
+}
+
+.projects .butt:hover {
+    background-color: rgb(192, 249, 47);
+    transition: color 0.5s ease;
+    text-shadow: #111;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
