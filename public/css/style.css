@@ -369,6 +369,21 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.projects .serv-content.card .box button {
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.projects .butt {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(34, 203, 59);
+    background-color: white;
+}
+
 
 /* skills section styling */
 
@@ -410,6 +425,10 @@ section .title::after {
 
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
+    display: list-item;
+    */
+    /* float: right; */
+    display: inline-block;
 }
 
 .skills .skills-content .right .info {
@@ -424,39 +443,16 @@ section .title::after {
     font-size: 18px;
 }
 
-
-/* 
-.skills .skills-content .right .line {
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-} */
-
-
-/* .skills .skills-content .right .line::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-     background: crimson; 
-
-
+.skills .skills-content .right button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
 }
-
-/* .skills-content .right .html::before {
-    width: 90%;
-} */
-
-
-/* .skills-content .right .css::before {
-    width: 60%;
-}
-
-.skills-content .right .js::before {
-    width: 80%;
-} */
 
 
 /* achievements section styling */
