@@ -425,9 +425,11 @@ section .title::after {
 
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
-    display: list-item;
+    /* display: list-item; */
     /* float: right; */
     display: inline-block;
+    margin-right: 20px;
+    ;
 }
 
 .skills .skills-content .right .info {
@@ -443,14 +445,24 @@ section .title::after {
 }
 
 .skills .skills-content .right button {
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: rgb(84, 119, 16);
     font-style: normal;
     color: white;
     font-weight: bold;
     font-size: 15px;
+    background-color: rgb(91, 123, 146);
+}
+
+.skills .skills-content .right button:hover {
+    color: black;
     background-color: red;
+    font-weight: bold;
+    width: 150px;
+    font-style: italic;
+    height: 50px;
 }
 
 
